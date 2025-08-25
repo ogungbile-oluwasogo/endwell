@@ -1,0 +1,114 @@
+.contactWrapper {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contactWrapper .box {
+    width: 30%;
+    height: 387px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 14.9px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.contactWrapper .box h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 212px;
+    height: 56px;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;;
+}
+
+.contactWrapper .office h4 {
+    background: #FE0000;
+}
+
+.contactWrapper .mobile h4 {
+    background: #FF5900;
+}
+
+.contactWrapper .email h4 {
+    background: #230F93;
+}
+
+.contactWrapper .box p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 90%;
+    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.contactWrapper .office p {
+    color: #FE0000;
+}
+
+.contactWrapper .mobile p {
+    width: 204px;
+    color: #FF5900;
+}
+
+.contactWrapper .email p {
+    color: #230F93;
+    text-transform: lowercase;
+    word-wrap: break-word;
+}
+
+.contactWrapper .box .svgContainer{
+    text-align: center;
+    margin: 20px;
+}
+
+
+@media (max-width: 950px) {
+    .contactWrapper .box h4 {
+        padding: 10px;
+        width: 170px;
+        height: 47px;
+        font-size: 18px;
+    }
+
+    .contactWrapper .box p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .contactWrapper {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .contactWrapper .box {
+        width: 90%;
+    }
+
+    .contactWrapper .box h4 {
+        padding: 10px;
+        width: 200px;
+        height: 48px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contactWrapper .box {
+        height: 290px;
+    }
+}

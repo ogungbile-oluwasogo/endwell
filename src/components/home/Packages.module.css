@@ -1,0 +1,160 @@
+.container {
+    /* width: 98%; */
+    margin: auto;
+    padding: 20px;
+}
+.container h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    width: 246px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 2px solid #FE0000;
+}
+
+.container .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 509px;
+    top: 2551px;
+    padding: 25px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11.3px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    width: 241px;
+    line-height: 39px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* font-variant: all-small-caps; */
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.card h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-variant: all-small-caps;
+}
+
+.card p {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card p span {
+    width: 226px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #5C5C5C;
+}
+
+.card a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 189px;
+    height: 49px;
+    margin-top: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    /* font-variant: all-small-caps; */
+    color: #FFFFFF;
+    transition: 0.2s ease-in-out;
+}
+
+.bronze a {
+    background: #CD7F32;
+}
+
+.bronze a:hover {
+    background: #b46415;
+}
+
+.bronze h2, .bronze h3 {
+    color: #CD7F32;
+}
+
+.silver a {
+    background: #C0C0C0;
+}
+
+.silver a:hover {
+    background: #858585;
+}
+
+.silver h2, .silver h3 {
+    color: #C0C0C0;
+}
+
+.gold a {
+    background: #FFD700;
+}
+
+.gold a:hover {
+    background: #caac01;
+}
+
+.gold h2, .gold h3 {
+    color: #FFD700;
+}
+
+.diamond a {
+    background: #91E1F3;
+}
+
+.diamond a:hover {
+    background: #76d9f0;
+}
+
+.diamond h2, .diamond h3 {
+    color: #91E1F3;
+}
+
+@media (max-width: 500px) {
+    .container .card {
+        width: 85%;
+    }
+}

@@ -1,0 +1,307 @@
+.layoutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    width: 90%;
+    margin: auto;
+    height: 780px;
+    /* flex-wrap: wrap; */
+    padding: 5rem 0rem;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 410px;
+  height: 100%;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 702px;
+  height: 100%;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: center;
+    height: 50%;
+    /* width: 410px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13.2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card h3{
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card p {
+    width: 334px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+.cardtwo {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: center;
+    height: 100%;
+    /* width: 702px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13.2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Header Styles */
+.redCard h3 {
+  /* background-color: rgba(254, 0, 0, 1); */
+  color: #FE0000;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 8px;
+  border-radius: 50px;
+}
+
+.purpleCard h3 {
+  color: #230F93;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.valuesCard h3 {
+    padding: 0.5rem;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FF5900;
+}
+
+.cardtwo .flexCardTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flexCardTwo .flexOne {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCardTwo .flexTwo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.flexCardTwo .flexTwo ol {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #5C5C5C;
+}
+
+.flexCardTwo .flexOne img {
+    width: 269px;
+    height: 269px;
+    border-radius: 23px;
+    object-fit: cover;
+}
+
+.imageGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imageGroup img {
+  width: calc(50% - 0.5rem);
+  border-radius: 10px;
+}
+
+@media (max-width: 1280px) {
+  .layoutContainer {
+  gap: 2rem;
+  width: 85%;
+  padding: 3rem 0rem;
+}
+  .cardtwo .flexCardTwo {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flexCardTwo .flexOne {
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+
+@media (max-width: 1100px) {
+    .layoutContainer {
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 90%;
+      padding: 3rem 0rem;
+      height: auto;
+    }
+
+    .card {
+      height: auto;
+    }
+
+    .card p {
+      width: 80%;
+      margin: auto;
+      font-size: 14px;
+      line-height: 24px;
+  }
+
+    .leftColumn {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+      height: auto;
+    }
+
+    .rightColumn {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+      height: fit-content;
+    }
+
+    .valuesCard h3 {
+      /* background-color: #fe5000; */
+      padding: 0.5rem;
+      width: 200px;
+      margin: auto;
+      font-size: 16px;
+      line-height: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .flexCardTwo .flexOne {
+      gap: 20px;
+  }
+    .flexCardTwo .flexOne img {
+      width: 200px;
+      height: 200px;
+      border-radius: 23px;
+  }
+
+    .card p {
+      width: 85%;
+  }
+}
+
+@media (max-width: 590px) {
+  .layoutContainer {
+    margin-top: 6rem;
+  }
+
+  .card h3{
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .valuesCard h3 {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 540px) {
+    .flexCardTwo .flexOne img {
+      width: 150px;
+      height: 150px;
+      border-radius: 23px;
+  }
+
+  .cardtwo {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    height: 100%;
+    /* width: 702px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13.2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+  .cardtwo .flexCardTwo {
+    gap: 0px;
+}
+
+  .flexCardTwo .flexTwo ol {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+  .card {
+    padding:20px 20px ;
+  }
+    .card p {
+      width: 100%;
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  .flexCardTwo .flexOne {
+      gap: 15px;
+  }
+    .flexCardTwo .flexOne img {
+      width: 140px;
+      height: 140px;
+  }
+}
+
+@media (max-width: 350px) {
+  .flexCardTwo .flexOne {
+      gap: 15px;
+  }
+    .flexCardTwo .flexOne img {
+      width: 120px;
+      height: 120px;
+  }
+}

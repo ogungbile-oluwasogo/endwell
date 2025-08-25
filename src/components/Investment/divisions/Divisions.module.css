@@ -1,0 +1,180 @@
+.container {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.container h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    width: 286px;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    border-bottom: 2px solid #FE0000;
+}
+
+.container .card {
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13.2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card .cardFlex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card .cardFlex div {
+    width: 45%;
+    margin: auto;
+}
+
+.cardFlex div h3 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #5C5C5C;
+}
+
+.cardFlex div p, ul {
+    color: #5C5C5C;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: capitalize;
+    list-style-position: inside;
+}
+
+.cardFlex div span {
+    color: #5C5C5C;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.card .cardFlex div img {
+    width: 100%;
+    height: 731px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 269px;
+    margin: auto;
+    height: 64px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.realtor a {
+    background: #FE0000;
+}
+
+.realtor a:hover {
+    background: #d80202;
+    width: 220px;
+}
+.agric a {
+    background: #06470E;
+}
+
+.agric a:hover {
+    background: #04350a;
+    width: 220px;
+}
+.health a {
+    background: #230F93;
+}
+
+.health a:hover {
+    background: #190b69;
+    width: 220px;
+}
+.education a {
+    background: #FF5900;
+}
+
+.education a:hover {
+    background: #e25102;
+    width: 220px;
+}
+
+.mineral a {
+    background: #5C5C5C;
+}
+
+.mineral a:hover {
+    background: #4e4e4e;
+    width: 220px;
+}
+
+@media (max-width: 1000px) {
+    .cardFlex div p, ul{
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 890px) {
+    .card .cardFlex {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .card .cardFlex div {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    .container .card {
+        padding: 30px 10px;
+    }
+    .container h2 {
+        font-size: 16px;
+        line-height: 35px;
+        width: 250px;
+    }
+
+    .cardFlex div h3 {
+        line-height: 25px;
+    }
+    .cardFlex div p, ul{
+        line-height: 25px;
+    }
+    .card .cardFlex div img {
+        height: 426px;
+    }
+
+    .card a {
+        width: 242px;
+        height: 51px;
+    }
+}

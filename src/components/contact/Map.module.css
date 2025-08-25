@@ -1,0 +1,14 @@
+.map {
+    position: relative;
+    height: 700px;
+}
+
+.map img{
+    position: absolute;
+}
+
+@media (max-width: 600px) {
+    .map{
+    height: 317px;
+}
+}

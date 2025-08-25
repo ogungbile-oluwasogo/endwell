@@ -1,0 +1,91 @@
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/contactheaderbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 559px;
+}
+
+.headerWrapper h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 10px;
+}
+
+.headerWrapper p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    width: 85%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .headerWrapper {
+        height: 450px;
+        background-size: cover;
+        background-position: center;
+    }
+    .headerWrapper h1 {
+        font-size: 38px;
+        line-height: 59px;
+    }
+
+    .headerWrapper p {
+        font-size: 18px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .headerWrapper p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 640px) {
+    .headerWrapper {
+        height: 380px;
+    }
+
+    .headerWrapper h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .headerWrapper p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .headerWrapper {
+        height: 208px;
+    }
+    .headerWrapper h1 {
+        width: 186px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .headerWrapper p {
+        font-size: 9px;
+        line-height: 15px;
+        width: 90%;
+        }
+}
