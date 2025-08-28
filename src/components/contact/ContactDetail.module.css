@@ -42,7 +42,7 @@
     background: #230F93;
 }
 
-.contactWrapper .box p {
+.contactWrapper .box p, .contactWrapper .box a{
     text-align: center;
     font-family: 'Montserrat';
     font-style: normal;
@@ -63,10 +63,16 @@
     color: #FF5900;
 }
 
-.contactWrapper .email p {
+.contactWrapper .email a {
     color: #230F93;
+    display: inline-block;
     text-transform: lowercase;
+    margin: auto;
+    white-space: normal;
     word-wrap: break-word;
+    text-align: center;
+    max-width: 100%;
+    padding-left: 10%;
 }
 
 .contactWrapper .box .svgContainer{

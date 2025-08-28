@@ -7,13 +7,13 @@ const Footer = () => {
     <section>
       <div className={styles.flex}>
         <div className={styles.blue} data-aos="fade-up">
-            <img src="/images/endwell-logo.jpg" alt="" data-aos="flip-up" data-aos-delay="900"/>
+            <img src="/images/endwell-logo.jpg" alt="" data-aos="flip-up" data-aos-delay="200"/>
             <h3 data-aos="fade-up" data-aos-delay="500">End Well Investment Hub Limited (EWIHL)</h3>
         </div>
         <div className={styles.red}>
           <div className={styles.flexContainer}>
             <div className={styles.redFlex}>
-              <div className={styles.redFlexInner} data-aos="fade-up" data-aos-delay="900">
+              <div className={styles.redFlexInner} data-aos="fade-up">
                 <h4>COMPANY</h4>
                 <Link to='/'>
                   <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">

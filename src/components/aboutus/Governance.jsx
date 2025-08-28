@@ -46,7 +46,7 @@ const Governance = () => {
             <h2>Engr. Samuel Opeyemi Ajayi, MNSE, COREN</h2>
           </div>
           <br />
-          <h4>Executive Directors</h4>
+          <h4>Executive Director</h4>
           <p className={styles.paragraph}>
             Engr. Samuel Opeyemi Ajayi is a seasoned civil and transportation engineer with close to 15 years of 
             professional experience spanning infrastructure planning, structural engineering, real estate 
@@ -107,7 +107,7 @@ const Governance = () => {
         </div>
         <div className={` ${styles.esv} ${styles.exco} `}>
             <div className={styles.text}>
-                <h4>Life Visionary President</h4>
+                <h4>Life Visionary Treasurer</h4>
                 <p>
                   ESV Sunday Omotayo is the Principal Partner of SUNDAY OMOTAYO & CO., a thriving real estate 
                   Firm based in Osogbo but with an extension of practice across the country. 
@@ -150,7 +150,7 @@ const Governance = () => {
         <div className={styles.display}>
           <div className={` ${styles.executive} ${styles.exco} `}>
             <div className={styles.text}>
-              <h4>Life Visionary Secretary</h4>
+              <h4>Executive Directors</h4>
               <p>
                 Engr. Samuel Opeyemi Ajayi is a seasoned civil and transportation engineer with close to 15 years of 
                 professional experience spanning infrastructure planning, structural engineering, real estate 

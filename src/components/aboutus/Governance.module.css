@@ -190,6 +190,12 @@
     margin-bottom: 20px;
 }
 
+@media (min-width: 1700px) {
+    .exco .image img {
+    object-position: 50% calc(15% - 0px);
+}
+}
+
 .image div {
     position: absolute;
     top: 40px;
