@@ -24,7 +24,7 @@ const ContactDetail = () => {
             </svg>
         </div>
         <p>
-            +234 8060380206, +234 7058486516, +234 8063235533
+            +234 7077093888, +234 8150455994
         </p>
       </div>
       <div className={`${styles.box} ${styles.email}`}>
