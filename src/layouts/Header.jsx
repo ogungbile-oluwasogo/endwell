@@ -53,7 +53,12 @@ const Header = () => {
                             Contact
                         </NavLink>
                     </li>
-                    <li><a href="">Latest update</a></li>
+                    <li>
+                        <NavLink to="/latest-updates" 
+                        className={({ isActive }) => isActive ? `${styles.active}` : ''}>
+                            Latest Updates
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
             <div className={styles.login}>
