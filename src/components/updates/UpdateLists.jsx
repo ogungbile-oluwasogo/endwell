@@ -29,8 +29,15 @@ if (isError) {
       {data.map(update => (
         <div key={update.id} className={styles.updateItems}>
             <div>
-                <h3>{update.title}</h3>
-                <p>{update.content}</p>
+              <h2>
+                {new Date(update.created_at).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })} Update
+              </h2>
+              <h3>{update.title}</h3>
+              <p>{update.content}</p>
             </div>
             <div>
                 <img src={`https://update.endwellinvestmenthublimited.com/storage/${update.image}`} alt={update.title} />

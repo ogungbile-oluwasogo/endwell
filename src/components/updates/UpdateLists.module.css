@@ -15,7 +15,7 @@
 
 .updateListsWrapper .updateItems {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     padding: 20px;
     margin: 40px auto;
     background: #FFFFFF;
@@ -37,7 +37,7 @@
     object-fit: cover;
 }
 
-.updateItems h3 {
+.updateItems h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -45,5 +45,27 @@
     line-height: 40px;
     text-decoration-line: underline;
     text-transform: uppercase;
+    color: #230F93;
+}
+
+.updateItems h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
     color: #FE0000;
+}
+
+.updateItems p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #5C5C5C;
 }
