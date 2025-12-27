@@ -75,27 +75,27 @@ const Governance = () => {
         </p>
         <div className={` ${styles.president} ${styles.exco} `}>
             <div className={styles.text}>
-                <h4>Life Visionary President</h4>
+                <h4>Life Visionary President of EWIHL</h4>
                 <ol>
                     <li>
-                        Commitment to Serving Humanity (Philanthropy)
-                        We are dedicated to delivering impactful and compassionate services that 
-                        uplift and enhance the well-being of all individuals.
+                        Dr. Muyiwa A. MORONKEJI is a visionary leader and the divinely-inspired founder of EWIHL, 
+                        an initiative established with a clear mandate to reduce and ultimately eliminate stress from
+                        human endeavors. A distinguished Medical Laboratory Scientist with over 26 years of cognate experience, 
+                        he has made significant contributions in the areas of clinical service, research, teaching, and mentorship 
+                        within the healthcare sector—both in Nigeria and internationally, notably in The Gambia.
                     </li>
                     <li>
-                        Integrity through Excellence (Virtue)
-                        We uphold the highest standards of truth, fairness, equity, 
-                        and justice in all our actions and decisions.
+                       Dr. Moronkeji has played a pivotal role in advancing the rights and welfare of Health Professionals in Nigeria over the past 14 years. He has been at the forefront of health sector advocacy through his leadership in the Nigerian Union of Allied Health Professionals (NUAHP), a registered trade union in Nigeria where he currently serves as the State Chairman, Southwest Zonal Coordinator, and a prominent member of the National Executive Council of the union, demonstrating unwavering commitment to the collective progress of Allied Health Professionals.
                     </li>
                     <li>
-                        Unwavering Professionalism (Objectivity)
-                        We maintain objectivity and impartiality, fostering a culture of respect, 
-                        competence, and ethical conduct across all professions.
+                        Academically, Dr. Moronkeji holds a Doctor of Philosophy (Ph.D.) in Medical Laboratory Science, with specialization in Clinical Chemistry/Chemical Pathology and Immunology-Andrology. He is also a Fellow of the Institute of Professional Managers and Administrators of Nigeria, further highlighting his multidisciplinary expertise and leadership acumen.
                     </li>
                     <li>
-                        Focus on Productivity and Humane Service (Diligence)
-                        With visionary insight and strategic precision, we prioritize both exceptional 
-                        productivity and a deep commitment to humane, people-centered service delivery.
+                        With a passion for humanitarian service that is both deep and consistent, Dr. Moronkeji has achieved remarkable milestones in promoting workers’ welfare and unity within the healthcare workforce. His leadership in a diverse and dynamic trade union setting stands as a testament to his strategic vision and dedication.
+                    </li>
+                    <li>
+                      A staunch believer in scientific unionism and integrity-driven governance, Dr. Moronkeji has participated in numerous trainings and workshops on labour and industrial relations. He maintains a zero-tolerance stance on corruption and remains deeply committed to the development of a new, industrialized, prosperous, safe, and secure Nigeria.
+                      His unshakable faith in the potential of Nigeria and Africa at large for greatness and self-sufficiency continues to fuel his patriotic drive for transformational leadership and sustainable national development.
                     </li>
                 </ol>
             </div>
@@ -104,6 +104,31 @@ const Governance = () => {
                 <div></div>
                 <h2>Dr. Muyiwa Adeleye MORONKEJI</h2>
             </div>
+        </div>
+        <div className={` ${styles.secretary} ${styles.exco} `}>
+          <div className={styles.text}>
+            <h4>Life Visionary Secretary</h4>
+              <p>
+                  Taibat Adunni Raji is a seasoned medical laboratory scientist with about 15years experience in the 
+                  field of haematology and blood transfusion. She is registered with the Medical Laboratory Science 
+                  Council Of Nigeria (MLSCN) where she is also an associate member. She holds a Bachelor of Medical 
+                  Laboratory Science (B.MLS) in Medical Laboratory Science from Ladoke Akintola University Of 
+                  Technology. Ogbomoso and currently a chief medical laboratory scientist at Uniosun Teaching 
+                  Hospital, Osogbo Osun State. Taibat has held many positions within and outside her professional 
+                  calling, including been the Assistant Secretary of the Association of Medical Laboratory scientists 
+                  (UNIOSUN Chapter) and Welfare Secretary of the Osun State Chapter of the Young Medical 
+                  Laboratory Scientists of Nigeria (YMLS).She is also well known as very enterprising 
+                  with a robust business acumen, She is the chief executive officer of Tetraas fashions,a 
+                  reputable fashion designing outfit. Known for her diligence, leadership skills and excellence, 
+                  Taibat Adunni Raji is committed to delivering cutting edge service in the field of 
+                  health care services and textile designs.
+              </p>
+          </div>
+          <div className={styles.image}>
+                <img src="/images/secretary.png" alt="" />
+                <div></div>
+                <h2>MRS TAIBAT ADUNNI RAJI, B.MLS</h2>
+          </div>
         </div>
         <div className={` ${styles.esv} ${styles.exco} `}>
             <div className={styles.text}>
@@ -121,31 +146,6 @@ const Governance = () => {
                 <div></div>
                 <h2>ESV Sunday OMOTAYO</h2>
             </div>
-        </div>
-        <div className={` ${styles.secretary} ${styles.exco} `}>
-          <div className={styles.text}>
-            <h4>Life Visionary Secretary</h4>
-              <p>
-                  Taibat Adunni Raji is a seasoned medical laboratory scientist with about 15years experience in the 
-                  field of haematology and blood transfusion. She is registered with the Medical Laboratory Science 
-                  Council Of Nigeria (MLSCN) where she is also an associate member. She holds a Bachelor of Medical 
-                  Laboratory Science (B.MLS) in Medical Laboratory Science from Ladoke Akintola University Of 
-                  Technology. Ogbomoso and currently a chief medical laboratory scientist at Uniosun Teaching 
-                  Hospital, Osogbo Osun State. Taibat has held many positions within and outside her professional 
-                  calling, including been the secretary of the Association of Medical Laboratory scientists 
-                  (UNIOSUN Chapter) and Welfare Secretary of the Osun State Chapter of the Young Medical 
-                  Laboratory Scientists of Nigeria (YMLS).She is also well known as very enterprising 
-                  with a robust business acumen, She is the chief executive officer of Tetraas fashions,a 
-                  reputable fashion designing outfit. Known for her diligence, leadership skills and excellence, 
-                  Taibat Adunni Raji is committed to delivering cutting edge service in the field of 
-                  health care services and textile designs.
-              </p>
-          </div>
-          <div className={styles.image}>
-                <img src="/images/secretary.png" alt="" />
-                <div></div>
-                <h2>MRS TAIBAT ADUNNI RAJI, B.MLS</h2>
-          </div>
         </div>
         <div className={styles.display}>
           <div className={` ${styles.executive} ${styles.exco} `}>

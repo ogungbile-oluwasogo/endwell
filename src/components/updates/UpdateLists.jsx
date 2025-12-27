@@ -26,8 +26,12 @@ if (isError) {
   return (
     <div className={styles.updateListsWrapper}>
       <h2>LATEST UPDATES</h2>
-      {data.map(update => (
-        <div key={update.id} className={styles.updateItems}>
+        {data.map(update => {
+        const words = update.content.trim().split(/\s+/);
+        const shortContent = words.slice(0, 40).join(" ");
+        const isLong = words.length > 40;
+        return (
+          <div key={update.id} className={styles.updateItems}>
             <div>
               <h2>
                 {new Date(update.created_at).toLocaleDateString("en-US", {
@@ -37,13 +41,21 @@ if (isError) {
                 })} Update
               </h2>
               <h3>{update.title}</h3>
-              <p>{update.content}</p>
+              <p>
+                {shortContent}
+                {isLong && (
+                  <span>
+                    ... <a href={`/updates/${update.id}`} className={styles.seeMore}>See more</a>
+                  </span>
+                )}
+              </p>
             </div>
             <div>
-                <img src={`https://update.endwellinvestmenthublimited.com/storage/${update.image}`} alt={update.title} />
+              <img src={`https://update.endwellinvestmenthublimited.com/storage/${update.image}`} alt={update.title} />
             </div>
-        </div>
-      ))}
+          </div>
+        );
+      })}
     </div>
   )
 }
