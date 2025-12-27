@@ -25,7 +25,7 @@ const Header = () => {
     <div className={styles.headerWrapper}>
         <div className={styles.container}>
             <div>
-                <img src="/images/endwell-logo.jpg" alt="" />
+                <NavLink to="/"><img src="/images/endwell-logo.jpg" alt="" /></NavLink>
             </div>
             <div>
                 <ul>
