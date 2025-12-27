@@ -38,7 +38,6 @@ const ContactDetail = () => {
             </svg>
         </div>
         <a href="mailto:contact@endwellinvestmenthublimited.com">contact@endwellinvestmenthublimited.com</a>
-        <a href="mailto:endwellinvestmenthublimited@gmail.com">endwellinvestmenthublimited@gmail.com</a>
       </div>
     </div>
   )
