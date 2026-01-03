@@ -132,7 +132,7 @@ const Governance = () => {
         </div>
         <div className={` ${styles.esv} ${styles.exco} `}>
             <div className={styles.text}>
-                <h4>Treasurer</h4>
+                <h4>Director</h4>
                 <p>
                   ESV Sunday Omotayo is the Principal Partner of SUNDAY OMOTAYO & CO., a thriving real estate 
                   Firm based in Osogbo but with an extension of practice across the country. 
