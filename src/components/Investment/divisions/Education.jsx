@@ -32,7 +32,7 @@ const Education = () => {
                 <img src="/images/education.jpg" alt="" />
             </div>
         </div>
-        <a href="">CLICK TO INVEST</a>
+        <a href="https://portal.endwellinvestmenthublimited.com">CLICK TO INVEST</a>
     </div>
   )
 }

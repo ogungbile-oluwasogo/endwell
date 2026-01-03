@@ -33,7 +33,7 @@ const Mineral = () => {
                 <img src="/images/mineral_two.jpg" alt="image" />
             </div>
         </div>
-        <a href="">CLICK TO INVEST</a>
+        <a href="https://portal.endwellinvestmenthublimited.com">CLICK TO INVEST</a>
     </div>
   )
 }

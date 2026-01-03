@@ -42,7 +42,7 @@ const isMobile = useMediaQuery({ maxWidth: 820 });
                         shall be put in place. 
                         Our plan is to build state of the art hostels near or inside tertiary institutions across the country.
                     </p>
-                    <Link to='investments'>VIEW IINVESTMENT</Link>
+                    <Link to='investments'>VIEW INVESTMENT</Link>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -55,7 +55,7 @@ const isMobile = useMediaQuery({ maxWidth: 820 });
                         operating along the entire agricultural value chain—from production to processing 
                         and distribution.
                     </p>
-                    <Link to='investments'>VIEW IINVESTMENT</Link>
+                    <Link to='investments'>VIEW INVESTMENT</Link>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -67,7 +67,7 @@ const isMobile = useMediaQuery({ maxWidth: 820 });
                         At End-Well MediCare, our healthcare investments aim to close the accessibility & 
                         affordability gaps in medical services by targeting underserved and semi-urban populations.
                     </p>
-                    <Link to='investments'>VIEW IINVESTMENT</Link>
+                    <Link to='investments'>VIEW INVESTMENT</Link>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -79,7 +79,7 @@ const isMobile = useMediaQuery({ maxWidth: 820 });
                         End Well-EduCare is committed to enhancing educational access and quality, equipping young 
                         Africans with 21st-century skills through innovative, inclusive solutions.
                     </p>
-                    <Link to='investments'>VIEW IINVESTMENT</Link>
+                    <Link to='investments'>VIEW INVESTMENT</Link>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -93,7 +93,7 @@ const isMobile = useMediaQuery({ maxWidth: 820 });
                         Oil & Gas sector strategically, 
                         starting with downstream activities and gradually evolving towards renewable energy solutions.
                     </p>
-                    <Link to='investments'>VIEW IINVESTMENT</Link>
+                    <Link to=''>VIEW INVESTMENT</Link>
                 </div>
             </SwiperSlide>
         </Swiper>
